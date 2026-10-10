@@ -1,0 +1,6 @@
+{
+  "name": "E-Vote Kabupaten Sumedang - Pilkades Desa Kadakajaya",
+  "description": "Simulasi Pilkades Desa Kadakajaya, Kecamatan Tanjungsari, Kabupaten Sumedang Periode 2026–2034. Media sosialisasi dan edukasi pemungutan suara digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="100%" height="100%">
+  <defs>
+    <!-- Solid Red Background for Official Pilkades Pasfoto -->
+    <linearGradient id="redBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#dc2626" />
+      <stop offset="100%" stopColor="#b91c1c" />
+    </linearGradient>
+
+    <!-- Warm Indonesian Skin Tone -->
+    <linearGradient id="skinDedeng" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#f3be8c" />
+      <stop offset="50%" stopColor="#e4aa73" />
+      <stop offset="100%" stopColor="#c78e58" />
+    </linearGradient>
+
+    <!-- Suit & Peci Black Velvet -->
+    <linearGradient id="suitBlack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#1e293b" />
+      <stop offset="100%" stopColor="#090d16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Red Backdrop -->
+  <rect width="320" height="400" fill="url(#redBack)" />
+
+  <!-- Subtle Studio Light Vignette -->
+  <radialGradient id="vignette" cx="50%" cy="35%" r="60%">
+    <stop offset="0%" stopColor="#ef4444" stop-opacity="0.6" />
+    <stop offset="100%" stopColor="#991b1b" stop-opacity="0" />
+  </radialGradient>
+  <rect width="320" height="400" fill="url(#vignette)" />
+
+  <!-- Body / Formal Black Suit -->
+  <path d="M 30 400 C 30 310 80 290 160 290 C 240 290 290 310 290 400 Z" fill="url(#suitBlack)" />
+
+  <!-- White Shirt Triangle -->
+  <polygon points="135,290 160,360 185,290" fill="#ffffff" />
+  <polygon points="120,290 160,375 200,290" fill="#f8fafc" />
+
+  <!-- Black Tie -->
+  <!-- Knot -->
+  <polygon points="152,310 168,310 165,325 155,325" fill="#090d16" />
+  <!-- Body of tie -->
+  <polygon points="155,325 165,325 170,400 150,400" fill="#0f172a" />
+  <!-- Tie shadow / clip -->
+  <path d="M 152 325 L 168 325 L 164 330 L 156 330 Z" fill="#020617" />
+
+  <!-- Suit Lapels -->
+  <path d="M 85 295 L 140 375 L 120 395 L 70 320 Z" fill="#090d16" />
+  <path d="M 235 295 L 180 375 L 200 395 L 250 320 Z" fill="#090d16" />
+
+  <!-- Shirt Collars -->
+  <polygon points="120,290 148,318 135,322" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <polygon points="200,290 172,318 185,322" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+
+  <!-- Neck -->
+  <path d="M 140 235 L 180 235 L 180 295 L 140 295 Z" fill="url(#skinDedeng)" />
+  <!-- Neck shadow under chin -->
+  <path d="M 140 235 Q 160 260 180 235 L 180 250 Q 160 270 140 250 Z" fill="#b47844" opacity="0.6" />
+
+  <!-- Head Face Shape (Dedeng Efendi) -->
+  <path d="M 108 170 C 108 100 212 100 212 170 C 212 235 185 258 160 258 C 135 258 108 235 108 170 Z" fill="url(#skinDedeng)" />
+
+  <!-- Ears -->
+  <ellipse cx="106" cy="180" rx="9" ry="16" fill="url(#skinDedeng)" />
+  <ellipse cx="214" cy="180" rx="9" ry="16" fill="url(#skinDedeng)" />
+  <!-- Inner Ear lines -->
+  <path d="M 106 172 Q 102 180 106 188" stroke="#a16207" stroke-width="1.8" fill="none" />
+  <path d="M 214 172 Q 218 180 214 188" stroke="#a16207" stroke-width="1.8" fill="none" />
+
+  <!-- Eyes & Eyebrows (Distinctive sharp masculine brows) -->
+  <path d="M 124 152 Q 138 147 148 153" stroke="#1c1917" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  <path d="M 172 153 Q 182 147 196 152" stroke="#1c1917" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+  <!-- Eyes (Warm, focused, realistic almond shape) -->
+  <ellipse cx="137" cy="165" rx="7.5" ry="5" fill="#ffffff" />
+  <circle cx="137" cy="165" r="4.2" fill="#292524" />
+  <circle cx="135.5" cy="163.5" r="1.5" fill="#ffffff" />
+  <path d="M 128 164 Q 137 159 146 164" stroke="#1c1917" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <ellipse cx="183" cy="165" rx="7.5" ry="5" fill="#ffffff" />
+  <circle cx="183" cy="165" r="4.2" fill="#292524" />
+  <circle cx="181.5" cy="163.5" r="1.5" fill="#ffffff" />
+  <path d="M 174 164 Q 183 159 192 164" stroke="#1c1917" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Nose (Structured Indonesian nose) -->
+  <path d="M 160 156 L 156 188 L 164 188" stroke="#9a3412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M 152 187 Q 160 193 168 187" stroke="#9a3412" stroke-width="2" fill="none" stroke-linecap="round" />
+  <!-- Nostrils -->
+  <circle cx="154" cy="188" r="1.2" fill="#451a03" />
+  <circle cx="166" cy="188" r="1.2" fill="#451a03" />
+
+  <!-- Dedeng Efendi's Goatee & Beard Features (Neat mustache & soul patch/goatee) -->
+  <!-- Subtle Mustache shadow -->
+  <path d="M 148 198 Q 160 196 172 198" stroke="#292524" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+  <!-- Lips (Calm smile) -->
+  <path d="M 148 206 Q 160 214 172 206" stroke="#9f1239" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Soul patch under lower lip -->
+  <ellipse cx="160" cy="216" rx="3.5" ry="4" fill="#1c1917" opacity="0.9" />
+  <!-- Chin Goatee Beard (Matching Dedeng Efendi's photo) -->
+  <path d="M 152 232 C 152 248 160 254 160 254 C 160 254 168 248 168 232 Z" fill="#1c1917" />
+  <path d="M 148 234 Q 160 248 172 234" stroke="#1c1917" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Official Black Kopiah / Peci (Slightly angled as in photo) -->
+  <path d="M 100 128 C 100 70 115 50 160 48 C 205 50 220 70 220 128 L 220 134 C 205 140 115 140 100 134 Z" fill="#09090b" />
+  <!-- Velvet texture highlight on top of Peci -->
+  <path d="M 106 126 C 140 130 180 130 214 126" stroke="#27272a" stroke-width="2" />
+  <!-- Subtle gold pin on side of peci -->
+  <circle cx="118" cy="112" r="2.5" fill="#facc15" opacity="0.8" />
+</svg>
